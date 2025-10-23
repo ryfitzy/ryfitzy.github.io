@@ -1,0 +1,112 @@
+
+/* --- Global Styles --- */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+header a {
+  color: #0073e6;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+/* --- Main Layout --- */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* --- About Me --- */
+.about p {
+  margin-bottom: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* --- Projects --- */
+.project {
+  margin-bottom: 1.5rem;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.project p {
+  margin: 0.3rem 0 0.5rem;
+}
+
+.project a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: 500;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #fff;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
